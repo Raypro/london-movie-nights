@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Resident Evil",
+    "aliases": ["Resident Evil (2026)"],
+    "canadianReleaseDate": "2026-09-18",
+    "kind": "Horror",
+    "note": "A new survival-horror take on the game series.",
+    "sourceUrl": "https://www.cineplex.com/movie/resident-evil-2026"
+  },
+  {
+    "title": "Insidious: Out of the Further",
+    "canadianReleaseDate": "2026-08-21",
+    "kind": "Horror",
+    "note": "A fresh trip into The Further.",
+    "sourceUrl": "https://www.cineplex.com/movie/insidious-out-of-the-further"
+  },
+  {
+    "title": "Practical Magic 2",
+    "canadianReleaseDate": "2026-09-11",
+    "kind": "Supernatural · adjacent",
+    "note": "Witchy, romantic and built for a fall movie night.",
+    "sourceUrl": "https://www.cineplex.com/movie/practical-magic-2"
+  },
+  {
+    "title": "Verity",
+    "canadianReleaseDate": "2026-10-02",
+    "kind": "Psychological thriller",
+    "note": "A twist-heavy adaptation with a darker edge.",
+    "sourceUrl": "https://www.cineplex.com/movie/verity"
+  },
+  {
+    "title": "Other Mommy",
+    "canadianReleaseDate": "2026-10-09",
+    "kind": "Horror",
+    "note": "A sinister presence takes the shape of a mother.",
+    "sourceUrl": "https://www.cineplex.com/movie/other-mommy"
+  },
+  {
+    "title": "Clayface",
+    "canadianReleaseDate": "2026-10-23",
+    "kind": "Body horror · adjacent",
+    "note": "A monster origin story with a body-horror streak.",
+    "sourceUrl": "https://www.cineplex.com/movie/clayface-2026"
+  },
+  {
+    "title": "Godzilla Minus Zero",
+    "aliases": ["Godzilla Minus Zero (Japanese w/e.s.t.)"],
+    "canadianReleaseDate": "2026-11-06",
+    "kind": "Monster movie · adjacent",
+    "note": "A big-screen monster pick for the horror-adjacent shelf.",
+    "sourceUrl": "https://www.cineplex.com/movie/godzilla-minus-zero"
+  },
+  {
+    "title": "Violent Night 2",
+    "canadianReleaseDate": "2026-12-04",
+    "kind": "Bloody action · adjacent",
+    "note": "Holiday mayhem with a dark-comedy streak.",
+    "sourceUrl": "https://www.cineplex.com/movie/violent-night-2"
+  },
+  {
+    "title": "Werwulf",
+    "canadianReleaseDate": "2026-12-25",
+    "kind": "Horror",
+    "note": "A werewolf film slated for Christmas Day.",
+    "sourceUrl": "https://www.cineplex.com/movie/werwulf"
+  },
+  {
+    "title": "Scream",
+    "canadianReleaseDate": null,
+    "kind": "Horror classic",
+    "note": "A Hyland horror-series screening when posted.",
+    "sourceUrl": "https://www.hylandcinema.com/movie/scream"
+  },
+  {
+    "title": "The Fly",
+    "canadianReleaseDate": null,
+    "kind": "Body-horror classic",
+    "note": "The 1986 transformation nightmare on the big screen.",
+    "sourceUrl": "https://www.hylandcinema.com/movie/the-fly"
+  },
+  {
+    "title": "The Evil Dead",
+    "canadianReleaseDate": null,
+    "kind": "Horror classic",
+    "note": "A Halloween-night cult favourite at Hyland when posted.",
+    "sourceUrl": "https://www.hylandcinema.com/movie/the-evil-dead"
+  }
+]

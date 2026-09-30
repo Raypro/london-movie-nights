@@ -1,0 +1,4 @@
+beautifulsoup4==4.15.0
+playwright==1.63.0
+requests==2.34.2
+tzdata==2025.3

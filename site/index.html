@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#201d22">
+    <meta name="description" content="London, Ontario movie showtimes by date, plus a handpicked horror watchlist.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Movie Nights">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+    <title>London Movie Nights</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="masthead">
+        <div class="masthead__inner">
+          <div class="brand-line"><span class="brand-mark" aria-hidden="true">✦</span> LONDON <span class="brand-divider">/</span> ONTARIO</div>
+          <div class="masthead__main">
+            <div>
+              <p class="eyebrow">Your local cinema guide</p>
+              <h1>Make it a<br><em>movie night.</em></h1>
+            </div>
+            <div class="ticket-stamp" aria-hidden="true"><span>ADMIT</span><strong>ONE<br>GOOD<br>NIGHT</strong><i>★ ★ ★</i></div>
+          </div>
+          <p class="masthead__note">Five London cinemas. One easy place to pick a film.</p>
+        </div>
+      </header>
+
+      <main>
+        <div class="main-top">
+          <nav class="view-switch" aria-label="Guide section">
+            <button id="tab-showtimes" class="view-switch__button is-active" type="button" aria-selected="true">Showtimes</button>
+            <button id="tab-horror" class="view-switch__button" type="button" aria-selected="false">After dark <span aria-hidden="true">✦</span></button>
+          </nav>
+          <p id="updated-line" class="updated-line" aria-live="polite">Checking London showtimes…</p>
+        </div>
+
+        <div id="notice" class="notice" hidden></div>
+
+        <section id="showtimes-view" class="view" aria-labelledby="showtimes-heading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow--dark">Pick a day</p>
+              <h2 id="showtimes-heading">What’s playing</h2>
+            </div>
+            <span class="section-heading__spark" aria-hidden="true">✳</span>
+          </div>
+          <div id="dates" class="date-rail" role="group" aria-label="Choose a date"></div>
+          <div class="filter-head"><span>THEATRES</span><button id="clear-filter" type="button" hidden>Clear filter</button></div>
+          <div id="cinema-filters" class="cinema-filters" role="group" aria-label="Filter by cinema"></div>
+          <div id="day-heading" class="day-heading" aria-live="polite"></div>
+          <div id="movie-list" class="movie-list"></div>
+          <div id="date-source-note" class="date-source-note"></div>
+        </section>
+
+        <section id="horror-view" class="view" aria-labelledby="horror-heading" hidden>
+          <div class="section-heading section-heading--horror">
+            <div>
+              <p class="eyebrow eyebrow--dark">A little darker</p>
+              <h2 id="horror-heading">After dark</h2>
+            </div>
+            <span class="section-heading__spark" aria-hidden="true">✳</span>
+          </div>
+          <p class="horror-intro">Horror, supernatural stories and a few deliciously dark detours. A Canadian release date does not mean a London screening is booked.</p>
+          <div id="horror-playing"></div>
+          <div id="horror-coming"></div>
+          <p class="editorial-note">Handpicked titles are reviewed occasionally. Always confirm a time on the cinema’s booking page before heading out.</p>
+        </section>
+
+        <section class="sources" aria-labelledby="sources-heading">
+          <div class="sources__title"><div><p class="eyebrow eyebrow--dark">Source check</p><h2 id="sources-heading">The five cinemas</h2></div><span aria-hidden="true">↗</span></div>
+          <p class="sources__intro">Schedules can change, especially around Wednesday’s weekly rollover. These links always open the cinema’s live page.</p>
+          <div id="source-list" class="source-list"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p><strong>London Movie Nights</strong><br>Made for the next “what should we see?”</p>
+        <p class="footer__tip">On iPhone: tap Safari’s Share button, then <strong>Add to Home Screen</strong>.</p>
+      </footer>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

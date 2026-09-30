@@ -1,0 +1,10 @@
+{
+  "name": "London Movie Nights",
+  "short_name": "Movie Nights",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f3ec",
+  "theme_color": "#201d22",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
