@@ -102,6 +102,10 @@ def screening(
 
 
 def status(theatre: dict, state: str, checked_at: str, dates: list[str], note: str = "") -> dict:
+    if state == "unavailable":
+        note = "Listings could not be checked. Open the cinema for current times."
+    elif state == "partial":
+        note = "Some dates could not be checked. Confirm times on the cinema site."
     return {
         "id": theatre["id"],
         "name": theatre["name"],
